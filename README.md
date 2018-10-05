@@ -8,7 +8,7 @@ https://github.com/saravana2906/kafkaproducer
 
 <br>
 I have used same zookeeper instance for kafka and storm.<br>
-started the required services in the below order for kafka<br.
+started the required services in the below order for kafka<br>.
 zookeeper<br>
 nimbus<br>
 supervisor<br>

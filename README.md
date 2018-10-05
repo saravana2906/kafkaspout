@@ -1,5 +1,5 @@
 # kafkaspout
-Simple kafkaspout consumes POJO from kafka and counting order counts
+Simple kafkaspout consumes Order POJO from kafka and counting order counts
 
 This Application helps to add unique order id counts, which consumes Order POJO from kafka which uses custom deserialiser. <br>
 OrderSpout emits orderid to ordercount bolt which has Set object contains received order ids and finally Set size helps us to get ordercount at any moment. <br>
